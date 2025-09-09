@@ -49,9 +49,9 @@ Bids (Buyers):   $10.00 (75 shares)   ← Best Bid
 
 ## Resources
 
-- **API Documentation**: [Swagger UI](https://emoji-stock-exchange-t6uxz.ondigitalocean.app/docs) - Interactive API explorer
+- **API Documentation**: [Swagger UI](https://emoji-stock-exchange-2-h52e5.ondigitalocean.app/swagger) - Interactive API explorer
 - **API Spec**: `openapi.yaml` - In this repository you can find the spec as well.
-- **Exchange URL**: `https://emoji-stock-exchange-t6uxz.ondigitalocean.app`
+- **Exchange URL**: `https://emoji-stock-exchange-2-h52e5.ondigitalocean.app`
 - **Leaderboard**: Check `/leaderboard` endpoint for rankings
 
 ## Workshop Tasks
@@ -165,7 +165,7 @@ GET /v1/orderbook?symbol=🦄
 ### Place Limit Order
 
 ```bash
-curl -X POST https://emoji-stock-exchange-t6uxz.ondigitalocean.app/v1/orders \
+curl -X POST https://emoji-stock-exchange-2-h52e5.ondigitalocean.app/v1/orders \
   -H "Content-Type: application/json" \
   -H "X-Team-Id: YOUR_TEAM_ID" \
   -H "X-Api-Key: YOUR_API_KEY" \
@@ -182,7 +182,7 @@ curl -X POST https://emoji-stock-exchange-t6uxz.ondigitalocean.app/v1/orders \
 
 ```bash
 # See all current orders (requires authentication)
-curl "https://emoji-stock-exchange-t6uxz.ondigitalocean.app/v1/orderbook?symbol=🦄&depth=10" \
+curl "https://emoji-stock-exchange-2-h52e5.ondigitalocean.app/v1/orderbook?symbol=🦄&depth=10" \
   -H "X-Team-Id: YOUR_TEAM_ID" \
   -H "X-Api-Key: YOUR_API_KEY"
 
@@ -196,7 +196,7 @@ curl "https://emoji-stock-exchange-t6uxz.ondigitalocean.app/v1/orderbook?symbol=
 ### Monitor Your Portfolio
 
 ```bash
-curl https://emoji-stock-exchange-t6uxz.ondigitalocean.app/v1/portfolio/YOUR_TEAM_ID \
+curl https://emoji-stock-exchange-2-h52e5.ondigitalocean.app/v1/portfolio/YOUR_TEAM_ID \
   -H "X-Team-Id: YOUR_TEAM_ID" \
   -H "X-Api-Key: YOUR_API_KEY"
 ```
@@ -204,7 +204,7 @@ curl https://emoji-stock-exchange-t6uxz.ondigitalocean.app/v1/portfolio/YOUR_TEA
 ### Watch for Fills (Executions)
 
 ```bash
-curl https://emoji-stock-exchange-t6uxz.ondigitalocean.app/v1/fills \
+curl https://emoji-stock-exchange-2-h52e5.ondigitalocean.app/v1/fills \
   -H "X-Team-Id: YOUR_TEAM_ID" \
   -H "X-Api-Key: YOUR_API_KEY"
 ```
