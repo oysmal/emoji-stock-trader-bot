@@ -1,0 +1,4 @@
+{
+  "model": "sonnet",
+  "apiKeyHelper": "~/anthropic_key.sh"
+}
