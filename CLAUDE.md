@@ -5,6 +5,11 @@
 A Kotlin-based automated trading bot. This project prioritizes clarity and simplicity over complex abstractions while ensuring reliable operation.
 This entire application must be possible to build in 3 hours, so the focus should always be on simplicity and YAGNI.
 
+## Use sub-agents
+
+There are expert sub-agents available. Prefer using these where applicable.
+When using sub-agents, see the section below on "Sub-Agent Workflow for Feature Development"
+
 ## Development Process Instructions (COD Loop and sub-agents)
 
 ### CRITICAL: Clarify-Offer-Decide (COD) Loop Requirements
